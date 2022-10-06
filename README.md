@@ -5,6 +5,8 @@
 For this lab we will be taking our HTML, CSS, and JS to build up a functioning calculator. This calculator should have at least Addition, Multiplication, Subtraction, and Division functions, with the ability to clear out your screen and reset your values
 
 
+Fork and Clone this lab, touch an HTML, JS, and CSS file, get them linked up and get ready to create something really cool!
+
 
 ## Requirements
 
