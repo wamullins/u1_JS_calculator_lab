@@ -26,6 +26,6 @@ div {
 
 #viewScreen {
     height: 5vmin;
-    background-color: lightgray;
+    background-color: black;
     grid-template-columns: 2fr;
 }
