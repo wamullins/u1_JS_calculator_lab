@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin:0;
+}
+
+div {
+    border: 1px solid black;
+}
+
+#calcCase {
+    background-color:darkgray;
+    border-width: 2vmin;
+    border-style: solid;
+    border-color: darkgray;
+}
+
+#buttonSpread {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
+}
+
+#viewScreen {
+    height: 5vmin;
+    background-color: lightgray;
+    grid-template-columns: 2fr;
+}
