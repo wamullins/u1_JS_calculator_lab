@@ -57,17 +57,19 @@ offOn.addEventListener('click', () => {
 
 
 
-// for (let i = 0; i<strButs.length; i++) {
-//     strButs[i].addEventListener('click', doMath(i));
-// }
+
 
 for (let i = 0; i<strButs.length; i++) {
-    strButs[i].addEventListener('click', () => {
-        currentMath = `${currentMath}${strButs[i].id}`;
-        showCurrentMath()
-        return;
-    })
+    strButs[i].addEventListener('click', () => doMath(i));
 }
+
+// for (let i = 0; i<strButs.length; i++) {
+//     strButs[i].addEventListener('click', () => {
+//         currentMath = `${currentMath}${strButs[i].id}`;
+//         showCurrentMath()
+//         return;
+//     })
+// }
 
 equalBut.addEventListener('click', equalButton);
 
